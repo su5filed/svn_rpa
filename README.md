@@ -1,6 +1,11 @@
 # svn_rpa
+```
+使用例：
+1.setting_READEME.txt を「開く」で読み込み
+2.「マクロ実行」で実行
+```
+!![image](https://github.com/su5filed/svn_rpa/assets/137695729/6c322075-0c79-48a2-ad69-1eb96209384f)
 
-!![image](https://github.com/su5filed/svn_rpa/assets/137695729/69bd9676-82b2-43fb-88dc-e891423f3c17)
 
 ```
 メモ帳に日本語入力
@@ -29,6 +34,7 @@ Alt押しながらのコマンドは　例：　％｛F
 
 以上より、Excelやその他のアプリを自動操作出来るようになるよ
 コードリスト.txt　みてね
+
 
 (c) su5filed@gmail.com
 
