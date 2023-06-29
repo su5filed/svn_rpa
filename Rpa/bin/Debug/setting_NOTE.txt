@@ -1,0 +1,27 @@
+﻿[main]
+test2
+:stop
+
+
+#-------------------------
+#test2
+#-------------------------
+[test2]
+:wait=1000
+:getpid=notepad,無題
+:active=on
+メモ帳に日本語入力
+{ENTER}
+:getpid=notepad,無題
+ ____ ∧ ∧{ENTER}
+|＼ /(´～`)＼<発展段階{ENTER}
+|　|￣￣￣￣￣|{ENTER}
+|　|＝みかん＝|{ENTER}
+ ＼|＿＿＿＿＿| {ENTER}
+{ENTER}
+{UP 1}
+{Right 2}
+{Delete 2}
+デモ
+{Down 1}
+

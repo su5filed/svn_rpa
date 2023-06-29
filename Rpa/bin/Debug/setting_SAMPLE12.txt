@@ -1,0 +1,6 @@
+﻿[test4]
+:wait=2000
+:active=off
+{LWin}R
+excel
+{ENTER}

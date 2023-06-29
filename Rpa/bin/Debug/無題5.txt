@@ -1,0 +1,54 @@
+[main]
+test2
+:stop
+
+
+#-------------------------
+#test2
+#-------------------------
+[test2]
+:wait=1000
+:getpid=notepad,無題
+:active=on
+メモ帳に日本語入力
+{ENTER}
+:getpid=notepad,無題
+ ____ ∧ ∧{ENTER}
+|＼ /(´～`)＼<自動入力{ENTER}
+|　|￣￣￣￣￣|{ENTER}
+|　|＝みかん＝|{ENTER}
+ ＼|＿＿＿＿＿| {ENTER}
+
+
+説明{ENTER}
+：wait=　はミリ秒でアイドリングストップする。※：は半角{ENTER}
+：getpid=　にはプロセスID名と題名を記載する。プロセス名は歯車からプロセスID取得より確認できます。※：は半角{ENTER}
+：active　には：getpidで取得したプロセスIDを有効にします。※：は半角{ENTER}
+メインから〔ｘｘｘ］の関数を呼び出し。：stopで終了。：loopで繰り返し。{ENTER}
+
+→（右に）１回シフトする際は｛Right｝※｛は半角{ENTER}
+←（左に）２回シフトする際は｛Left 2｝※｛は半角{ENTER}
+↑（上）２回シフトする際は｛Up 2｝※｛は半角{ENTER}
+↓（下）２回シフトする際は｛Down 2｝※｛は半角{ENTER}
+Enterは｛Enter｝※｛は半角{ENTER}
+Tabは、｛TAB｝※｛は半角{ENTER}
+繰り返し入力させたいときは｛TAB｝,loop=回数 {ENTER}
+{TAB},loop=3
+
+コントロール押しながらのコマンドは　例：　＾｛N｝{ENTER}
+次は新しい画面を作る{ENTER}
+^{N}
+:wait=1000
+
+Alt押しながらのコマンドは　例：　％｛F｝{ENTER}
+%{F}
+:wait=1000
+{Esc}
+
+{ENTER}
+
+以上より、Excelやその他のアプリを自動操作出来るようになるよ{ENTER}
+
+コードリスト.txt　みてね{ENTER}
+
+
